@@ -3,13 +3,13 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+    background: linear-gradient(to bottom, #ffecd2, #fcb69f);
     color: #333;
     line-height: 1.6;
 }
 
 header {
-    background: #00796b;
+    background: #ff6f61;
     color: #fff;
     padding: 1rem 2rem;
     display: flex;
@@ -18,7 +18,7 @@ header {
 }
 
 header .logo {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
 }
 
@@ -36,29 +36,29 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #b2dfdb;
+    color: #ffe0b2;
 }
 
 /* Hero Section */
 .hero {
-    background: url('hero-bg.jpg') no-repeat center center/cover;
+    background: linear-gradient(to bottom, #ff9a9e, #fad0c4);
     color: #fff;
     text-align: center;
     padding: 4rem 2rem;
 }
 
 .hero h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
 
 .hero p {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-bottom: 2rem;
 }
 
 .hero .btn {
-    background: #00796b;
+    background: #ff6f61;
     color: #fff;
     padding: 0.8rem 1.5rem;
     border: none;
@@ -69,27 +69,28 @@ header nav ul li a:hover {
 }
 
 .hero .btn:hover {
-    background: #004d40;
+    background: #e64a19;
 }
 
 .hero .btn.secondary {
-    background: #004d40;
+    background: #e64a19;
 }
 
 .hero .btn.secondary:hover {
-    background: #00251a;
+    background: #bf360c;
 }
 
 /* Services Section */
 .services {
     padding: 2rem;
-    background: #f1f8e9;
+    background: #fff3e0;
     text-align: center;
 }
 
 .services h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 1.5rem;
+    color: #ff6f61;
 }
 
 .service-grid {
@@ -99,17 +100,17 @@ header nav ul li a:hover {
 }
 
 .service-card {
-    background: #fff;
-    border: 1px solid #ddd;
+    background: #ffffff;
+    border: 1px solid #ffccbc;
     border-radius: 8px;
     padding: 1rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(255, 105, 97, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .service-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 6px 10px rgba(255, 105, 97, 0.3);
 }
 
 .service-card img {
@@ -117,7 +118,8 @@ header nav ul li a:hover {
     border-radius: 8px;
 }
 
-.service-card h3 {
+service-card h3 {
+    color: #ff6f61;
     margin: 1rem 0 0.5rem;
     font-size: 1.2rem;
 }
@@ -129,14 +131,14 @@ header nav ul li a:hover {
 
 /* Call to Action Section */
 .cta {
-    background: #00796b;
+    background: #ff6f61;
     color: #fff;
     text-align: center;
     padding: 2rem;
 }
 
 .cta h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 
@@ -146,7 +148,7 @@ header nav ul li a:hover {
 }
 
 .cta .btn {
-    background: #004d40;
+    background: #e64a19;
     color: #fff;
     padding: 0.8rem 1.5rem;
     border: none;
@@ -157,19 +159,19 @@ header nav ul li a:hover {
 }
 
 .cta .btn:hover {
-    background: #00251a;
+    background: #bf360c;
 }
 
 /* Footer */
 footer {
-    background: #004d40;
+    background: #e64a19;
     color: #fff;
     text-align: center;
     padding: 1rem;
 }
 
 footer nav a {
-    color: #b2dfdb;
+    color: #ffccbc;
     text-decoration: none;
     margin: 0 0.5rem;
     font-size: 0.9rem;
@@ -180,7 +182,7 @@ footer nav a:hover {
 }
 
 footer .social-icons a {
-    color: #b2dfdb;
+    color: #ffccbc;
     text-decoration: none;
     margin: 0 0.5rem;
 }
