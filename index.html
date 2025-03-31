@@ -5,13 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Pressure Washing Services</title>
 <link rel="stylesheet" href="./styles/style.css">
+<link rel="stylesheet" href="./styles/animations.css"> <!-- Add animations stylesheet -->
 </head>
 <body>
 
 <!-- Header Section -->
 <header>
 <div class="logo">HydroClear</div>
-<nav>
+<nav class="animated-menu"> <!-- Add animation class -->
 <ul>
 <li><a href="#">Home</a></li>
 <li><a href="#services">Services</a></li>
@@ -27,8 +28,8 @@
 <div class="hero-content">
 <h1>Transform Your Outdoors with Professional Pressure Washing!</h1>
 <p>Driveways, patios, and paving restored to their former glory—fast, effective, and affordable!</p>
-<a href="#contact" class="btn">Get a Free Quote</a>
-<a href="tel:+1234567890" class="btn secondary">Call Now: +1234567890</a>
+<a href="#contact" class="btn animated-btn">Get a Free Quote</a> <!-- Add animation class -->
+<a href="tel:+1234567890" class="btn secondary animated-btn">Call Now: +1234567890</a> <!-- Add animation class -->
 </div>
 </section>
 
@@ -62,7 +63,7 @@
 <p>Keep your outdoor furniture and fencing looking new and well-maintained.</p>
 </div>
 </div>
-<a href="#contact" class="btn">Get a Free Estimate Today!</a>
+<a href="#contact" class="btn animated-btn">Get a Free Estimate Today!</a> <!-- Add animation class -->
 </section>
 
 <!-- Why Choose Us Section -->
@@ -83,12 +84,20 @@
 <p>🗨 “Couldn’t believe the difference! Will definitely book again.” – Emma R.</p>
 </section>
 
+<!-- Trivia Section -->
+<section id="trivia" class="trivia">
+    <h2>Fun Trivia</h2>
+    <div id="trivia-container">
+        <p>Loading trivia questions...</p>
+    </div>
+</section>
+
 <!-- Call to Action Section -->
 <section id="contact" class="cta">
 <h2>Ready to Restore Your Outdoors?</h2>
 <p>Contact us today for a free quote and see the difference for yourself!</p>
-<a href="tel:+1234567890" class="btn">Call Now: +1234567890</a>
-<a href="mailto:info@hydroclear.com" class="btn secondary">Email Us</a>
+<a href="tel:+1234567890" class="btn animated-btn">Call Now: +1234567890</a> <!-- Add animation class -->
+<a href="mailto:info@hydroclear.com" class="btn secondary animated-btn">Email Us</a> <!-- Add animation class -->
 </section>
 
 <!-- Footer -->
@@ -105,5 +114,6 @@
 </div>
 </footer>
 
+<script src="./scripts/trivia.js"></script> <!-- Add script for trivia -->
 </body>
 </html>
